@@ -15,7 +15,7 @@ const Trivia = ({ questions }: { questions: Question[] }) => {
 					Results: You got {points}/{questions.length} points!
 				</h1>
 
-				<a href='./' className='btn btn-success'>
+				<a href='/quiz-app' className='btn btn-success'>
 					Play Again!
 				</a>
 			</div>
