@@ -22,7 +22,7 @@ const Trivia = ({ questions }: { questions: Question[] }) => {
 		);
 	}
 	return (
-		<div className='bg-white text-dark py-3'>
+		<div className='bg-white text-dark p-3'>
 			<div
 				className='mb-3'
 				style={{
