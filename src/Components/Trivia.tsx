@@ -15,9 +15,13 @@ const Trivia = ({ questions }: { questions: Question[] }) => {
 					Results: You got {points}/{questions.length} points!
 				</h1>
 
-				<a href='/quiz-app' className='btn btn-success'>
+				<button
+					className='btn btn-success'
+					onClick={() => {
+						window.location.reload();
+					}}>
 					Play Again!
-				</a>
+				</button>
 			</div>
 		);
 	}
